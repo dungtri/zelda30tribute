@@ -1,6 +1,11 @@
 ## Zelda 30 Year Tribute
 
 #### A free HTML5/WebGL remake of Nintendo's original Legend of Zelda. This time in 3D!
+[![Build Status](https://drone.dungtri.be/api/badges/dungtri/zelda30tribute/status.svg)](https://drone.dungtri.be/dungtri/zelda30tribute)
+
+UPDATE: 
+- Add support for Docker & based on node image.
+- Add support for multiple architecture : arm, arm64 & x86/x64
 
 
 ## How to Play
