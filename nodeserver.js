@@ -1,4 +1,3 @@
-var sys = require("sys");
 var http = require("http");
 var path = require("path");
 var url = require("url");
@@ -14,9 +13,6 @@ http.createServer(function(request,response){
   if (my_path.indexOf('/closure') == 0) {
     full_path = path.join(process.cwd(), '/../../../third_party/src/closure/', my_path);
   }
-  //console.log('my_path=' + my_path);
-  //console.log('full_path=' + full_path);
-  //console.log('closurePath=' + closurePath);
 
 	fs.exists(full_path,function(exists){
 		if(!exists){
@@ -42,4 +38,4 @@ http.createServer(function(request,response){
 		}
 	});
 }).listen(9378);
-sys.puts("Server Running on 9378");			
+console.log("Server Running on 9378");			
