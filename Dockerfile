@@ -1,4 +1,4 @@
-FROM node
+FROM node:12.8.0-alpine
 
 ARG arch=arm
 ENV ARCH=$arch
